@@ -16,7 +16,7 @@ The database data was created using the script in:
 	src\main\resources\scripts\dbInit.sql
 
 
-####How to run
+#### How to run
 
 If you are not behind a restrictive firewall, run the command:
 
@@ -33,14 +33,14 @@ mvn spring-boot:run
 Then use Postman or Curl to input valid REST queries.
 
 
-#####To retrieve use a GET:
+##### To retrieve use a GET:
 
 ```
 localhost:8080/employees/
 localhost:8080/employees/JRS
 ```
 
-#####To input a new Employee use a POST:
+##### To input a new Employee use a POST:
 
 ```
 localhost:8080/employees/
@@ -57,7 +57,7 @@ Using a body with the format:
 }
 ```
 
-#####To update a PUT:
+##### To update a PUT:
 
 ```
 localhost:8080/employees/JRS
@@ -75,13 +75,13 @@ Using a body with the format:
 }
 ```
 
-#####To delete a user use a DELETE:
+##### To delete a user use a DELETE:
 
 ```
 localhost:8080/employees/JRS
 ```
 
-#####To search for an employee use a GET:
+##### To search for an employee use a GET:
 
 ```
 localhost:8080/employees/search?<searchCriteria>(&<searchCriteria)
