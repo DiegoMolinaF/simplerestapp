@@ -2,7 +2,7 @@
 
 The idea of the app is to have an Employee table that can be accessed via REST queries.
 
-This project was required to have table with the following structure:
+This project was required to have a table with the following structure:
 
 	Id     Char(3)
 	Name   Char(30)
